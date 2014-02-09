@@ -1,0 +1,91 @@
+body {
+font-family: 'Artifika', serif;
+background:#E8A3FF;
+color:#FF6666;
+}
+
+a:active{color: #FF6666;}
+a:hover {color: #E8A3FF;}
+a:visited {color: #9933FF;}
+
+#wrapper {
+padding: 20px;
+margin-right: auto;
+margin-left:auto;
+width:1000px;
+
+background: #CCFFCC;
+background: -webkit-linear-gradient(top, #fff, #CCFFCC) no-repeat; /* Safari */
+background: -o-linear-gradient(top,#fff, #CCFFCC); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(top, #fff, #CCFFCC); /* For Firefox 3.6 to 15 */
+background: linear-gradient(top,#fff, #CCFFCC); /* Standard syntax */ 
+background: -ms-linear-gradient(top,#fff,#CCFFCC);/*Internet Explorer*/
+
+border-width: 5px;
+
+
+
+
+
+}
+
+
+img:nth-child(5) {margin-bottom:32px;}
+.left {float:left;max-width:100px;margin:10px 15px 0px;}
+.right{float:right;max-width:100px;margin:10px 15px 0px;}
+
+/*p:nth-child(8) {margin-left:5px;}*/
+
+form {
+width:380px;
+
+}
+
+div.modal-header{
+	 text-align:center;
+      }
+    .modal-header p{
+	display: inline-block;
+    width: 200px;
+	height: 200px;
+	margin: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+h3 {text-align:center;}
+li {list-style-type:none;}
+
+.glossy {  
+    width: 100px;  
+    height: 30px;  
+  
+    margin: 10px auto;  
+    position: relative;  
+  
+    background: #9933FF;  
+    /*background: -webkit-gradient(linear, left top, left bottombottom, color-stop(31%,#E8A3FF), color-stop(100%,#00934A));  
+    background: -webkit-linear-gradient(top,  #E8A3FF 31%,#00934A 100%);  
+    background: -moz-linear-gradient(top,  #E8A3FF 31%, #00934A 100%);  
+    background: -o-linear-gradient(top,  #E8A3FF 31%,#00934A 100%);  
+    background: -ms-linear-gradient(top,  #E8A3FF 31%,#00934A 100%);  
+    background: linear-gradient(to bottombottom,  #E8A3FF 31%,#00934A 100%);*/  
+  
+  
+    -webkit-border-radius: 25px;  
+    -moz-border-radius: 25px;  
+    border-radius: 25px;  
+  
+    border: 1px solid #9933FF;  
+  
+    color: #CCFFCC;  
+    font-size: 18px;
+    font-family: inherit;
+	
+    text-shadow: 1px 1px 0px rgba(255,255,255,.5);  
+  
+    -webkit-box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, .2);      
+    box-shadow:  0px 1px 3px 0px rgba(0, 0, 0, .2);  
+  
+    position: relative;  
+	z-index: 1; 
+}  
